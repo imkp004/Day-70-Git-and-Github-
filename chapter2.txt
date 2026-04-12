@@ -1,4 +1,6 @@
 Second Commit
 
 git diff <filename>
+git diff .
 git checkout <filename>
+git checkout .
