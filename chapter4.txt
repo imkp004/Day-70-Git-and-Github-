@@ -1,3 +1,7 @@
-git ignore command
+git ignore file for not tracking these files/folders
+
+cloning someone else's git repository for personal use
+git clone <url>
+
 
 
