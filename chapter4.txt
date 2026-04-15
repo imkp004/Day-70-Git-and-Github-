@@ -5,3 +5,34 @@ git clone <url>
 
 
 
+
+git Branching
+
+git branch <branch-name>     # create branch
+git checkout <branch-name>  # switch to it
+git branch                  #to see all branches
+git checkout -b <branch-name>
+
+git push origin feature-login    #pushing branch to github
+
+
+
+
+git Merging
+
+#Work on feature branch
+git checkout -b <branch-name>
+
+# make changes
+git add .
+git commit -m "<message>"
+
+#Go back to main
+git checkout main
+
+# and finally Merge
+git merge feature-login
+
+
+
+
