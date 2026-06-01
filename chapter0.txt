@@ -1,0 +1,8 @@
+Git Basics commands
+
+git init  -  To initilize git in the folder now it will be a repo.
+git status  - To check the status of the repo for ex: modified file, untracked file, staged file
+git add <filename> or git add .  - To stage the file for commiting, this is first to commit
+
+
+git clone
