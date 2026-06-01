@@ -48,3 +48,4 @@ git checkout -b <new-branch-name>  - To create new branch and be on i
 git branch -d <branch-name>  - To delete the branch. but you can't be on the branch and delete
                                you have to be on different branch to delete it. 
                          
+
