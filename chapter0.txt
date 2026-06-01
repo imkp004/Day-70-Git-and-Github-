@@ -5,4 +5,4 @@ git status  - To check the status of the repo for ex: modified file, untracked f
 git add <filename> or git add .  - To stage the file for commiting, this is first to commit
 
 
-git clone
+git clone <link from github>   - To get the copy of the project from the github
