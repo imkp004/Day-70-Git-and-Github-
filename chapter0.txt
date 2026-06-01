@@ -1,8 +1,28 @@
 Git Basics commands
 
+
+for new project first create a folder for project in your computer
+then also create the repo in the github same name. Then run commands
+
+git remote add origin <link of the repo>   - to connect this project to github
+git remote -v   - To check the repo your project is connected to on github
+
+now anything you push to gihub it will shown all the commits in github, in the sane repo
+
+
 git init  -  To initilize git in the folder now it will be a repo.
 git status  - To check the status of the repo for ex: modified file, untracked file, staged file
 git add <filename> or git add .  - To stage the file for commiting, this is first to commit
-
+git commit -m "message"  - To commit the staged changes and with the short message
 
 git clone <link from github>   - To get the copy of the project from the github
+
+
+git branch  - To check which branch of the projwct we are working in.
+
+branching is like if there is project and different teams are working on it
+they take their own copy of the main branch and work in their team. So, now if 
+we have frontend, and backend teams they create their own branch from the project 
+and start working in it so whatever commits frontend makes will go in the 
+frontend branch not the backend branch or main branch. Imagine a tree having branches
+which are offset of main branch.
