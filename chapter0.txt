@@ -56,4 +56,5 @@ git merge <branch-name>  - To merge two branches and make it one
 Now comes Pull request.
 if lot of people wokring on the same project and they want to merge their project with
 the main branch so they do a pull request so that the person who is the owner of the project 
-or owner of the main branch he will review the code if its good the
+or owner of the main branch he will review the code if its good then he will merge the it
+with the main branch.
