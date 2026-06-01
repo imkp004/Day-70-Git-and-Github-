@@ -26,3 +26,25 @@ we have frontend, and backend teams they create their own branch from the projec
 and start working in it so whatever commits frontend makes will go in the 
 frontend branch not the backend branch or main branch. Imagine a tree having branches
 which are offset of main branch.
+
+general workflow for git on projects:
+first creating github repo
+clone it to local computer
+edit it the file 
+add it to the staging area
+and commit it will the short message
+finally push it to github
+
+
+
+Branch commands:
+
+git branch  - To check which branch we are working on
+git branch -M <branch-name>  - To raname the branch
+git checkout <branch-name>   - To jump to the diffrent branch
+
+git checkout -b <new-branch-name>  - To create new branch and be on i
+
+git branch -d <branch-name>  - To delete the branch. but you can't be on the branch and delete
+                               you have to be on different branch to delete it. 
+                         
