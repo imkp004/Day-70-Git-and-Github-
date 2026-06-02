@@ -62,3 +62,14 @@ if lot of people wokring on the same project and they want to merge their projec
 the main branch so they do a pull request so that the person who is the owner of the project 
 or owner of the main branch he will review the code if its good then he will merge the it
 with the main branch.
+
+git pull origin <branch-name>
+
+
+git reset <file> or git reset   - To undo the staged files 
+
+git reset Head~1   - To undo the commit and it will be back at stating area.
+git reset --hard HEAD~1   - To undo the changes and commit. This makes your branch look exactly like it did before the last commit.
+
+
+git log  - To get the history of commits made with description and everything.
